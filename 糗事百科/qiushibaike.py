@@ -4,7 +4,6 @@
 import urllib.request
 import urllib.parse
 import re
-import os
 import time
 
 from crawlab import save_item
