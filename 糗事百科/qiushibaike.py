@@ -1,4 +1,5 @@
 # 使用正则爬去糗事百科热图
+# https://www.qiushibaike.com/imgrank/
 
 import urllib.request
 import urllib.parse
