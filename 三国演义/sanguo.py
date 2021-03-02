@@ -47,7 +47,6 @@ def parse_content(content):
         print('开始下载---%s' % title)
         text = download_text(href)
         print('结束下载---%s' % title)
-        string = title + '\n' + text + '\n'
         # 将标题和内容写入到数据库中
         result = {'title': title, 'content': text}
         save_item(result)
