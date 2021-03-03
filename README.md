@@ -7,9 +7,10 @@
 ## 主要依赖环境
 
 ```
-crawlab-sdk==0.3.3 
+crawlab-sdk==0.3.3
 bs4==0.0.1
-lxml==4.6.2 
+lxml==4.6.2
+jsonpath==0.82
 ```
 
 ## 推荐链接
