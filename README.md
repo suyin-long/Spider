@@ -4,7 +4,7 @@
 
 **该项目主要作用是将平时写过的爬虫代码搜集起来，以便日后参考和学习！**
 
-## 主要依赖环境
+## 主要依赖环境(Python3.8.8)
 
 ```
 crawlab-sdk==0.3.3
@@ -25,3 +25,4 @@ Scrapy==2.2.0
 - [IE驱动](http://selenium-release.storage.googleapis.com/index.html)
 - [PhantomJS](https://phantomjs.org/download.html)
 - [Twisted](https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted)
+- [pywin32](https://github.com/mhammond/pywin32/releases)
