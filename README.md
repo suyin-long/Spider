@@ -24,3 +24,4 @@ Scrapy==2.2.0
 - [geckodriver](https://github.com/mozilla/geckodriver/releases/)：Firefox驱动
 - [IE驱动](http://selenium-release.storage.googleapis.com/index.html)
 - [PhantomJS](https://phantomjs.org/download.html)
+- [Twisted](https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted)
