@@ -12,6 +12,7 @@ bs4==0.0.1
 lxml==4.6.2
 jsonpath==0.82
 selenium==3.141.0
+requests==2.22.0
 ```
 
 ## 友情链接
