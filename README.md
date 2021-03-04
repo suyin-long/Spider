@@ -14,6 +14,7 @@ jsonpath==0.82
 selenium==3.141.0
 requests==2.22.0
 Scrapy==2.2.0
+ipython==7.21.0
 ```
 
 ## 友情链接
