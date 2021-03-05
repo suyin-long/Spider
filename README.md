@@ -17,6 +17,8 @@ Scrapy==2.2.0
 ipython==7.21.0
 PyMySQL==0.9.3
 pymongo==3.10.1
+redis==3.5.3
+scrapy-redis==0.6.8
 ```
 
 ## 友情链接
