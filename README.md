@@ -31,3 +31,4 @@ scrapy-redis==0.6.8
 - [PhantomJS](https://phantomjs.org/download.html)
 - [Twisted](https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted)
 - [pywin32](https://github.com/mhammond/pywin32/releases)
+- [scrapy-redis](https://github.com/rmax/scrapy-redis)：基于[Scrapy](https://scrapy.org/)框架开发的一套分布式爬虫组件
