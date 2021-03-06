@@ -16,8 +16,8 @@ class PoemSpider(CrawlSpider):
 
     rules = (
         # 获取朝代连接列表
-        Rule(LinkExtractor(allow=r'/shiwens/default.aspx\?cstr=.*'), follow=False),
-        # 获取所有的页码列表，
+        Rule(LinkExtractor(allow=r'/shiwens/default.aspx\?cstr=.*'), follow=True),
+        # 获取所有的页码列表
         Rule(LinkExtractor(allow=r'/shiwens/default.aspx\?page=.*'), callback='parse_item', follow=True),
     )
 

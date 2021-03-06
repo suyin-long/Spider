@@ -5,6 +5,7 @@
 
 
 # useful for handling different item types with a single interface
+import json
 import pymysql
 from itemadapter import ItemAdapter
 from scrapy.utils.project import get_project_settings
@@ -45,5 +46,13 @@ class MySQLPipeline(object):
 
 
 class GushiwenPipeline:
+    def open_spider(self, spider):
+        self.fp = open('poems.txt', 'w', encoding='utf8')
+
     def process_item(self, item, spider):
+        string = json.dumps(dict(item), ensure_ascii=False)
+        self.fp.write(string + '\n')
         return item
+
+    def close_spider(self, spider):
+        self.fp.close()
