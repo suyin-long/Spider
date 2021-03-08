@@ -90,9 +90,9 @@ ITEM_PIPELINES = {
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # MySQL数据库参数配置
-DB_HOST = '123.207.147.235'
+DB_HOST = 'ip'
 DB_PORT = 3306
-DB_USER = 'root'
-DB_PASSWORD = 'ZlX120104180218'
-DB_NAME = 'spider'
+DB_USER = 'xxx'
+DB_PASSWORD = 'xxx'
+DB_NAME = 'xxx'
 DB_CHARSET = 'utf8'
